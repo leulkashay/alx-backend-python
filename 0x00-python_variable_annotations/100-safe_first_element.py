@@ -2,12 +2,12 @@
 """
 Duck types
 """
-from typing imprt Any, Sequence, Tuple, Union
+from typing import Any, Sequence, Tuple, Union
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
-    duck-type annotation
+    duck-typed annotations
     """
     if lst:
         return lst[0]
